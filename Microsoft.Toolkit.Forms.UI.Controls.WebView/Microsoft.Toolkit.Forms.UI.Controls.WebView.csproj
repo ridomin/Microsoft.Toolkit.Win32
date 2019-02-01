@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net462;netcoreapp3.0</TargetFrameworks>
-    <RootNamespace>Microsoft.Toolkit.Forms.UI.Controls</RootNamespace>
+    <RootNamespace>Microsoft.Toolkit.Win32.UI.Controls</RootNamespace>
     <AssemblyName>Microsoft.Toolkit.Forms.UI.Controls.WebView</AssemblyName>
 
     <Title>Windows Community Toolkit WebView Windows Forms Controls</Title>
@@ -43,9 +43,6 @@
     <Reference Include="WindowsBase" />
     <Reference Include="System.Net.Http">
       <HintPath>$(WINDIR)\Microsoft.NET\Framework\v4.0.30319\System.Net.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.WindowsRuntime">
-      <HintPath>$(WINDIR)\Microsoft.NET\Framework\v4.0.30319\System.Runtime.WindowsRuntime.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
